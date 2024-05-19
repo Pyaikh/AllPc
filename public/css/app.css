@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    position: relative;
+    color: #F5C432
+}
+
+nav ul li:hover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #F5C432;
+
+    top: -25px;
+    left: 0;
+}
+
+.hero {
+    position: relative;
+    color: #fff;
+    width: 100%;
+}
+.top-bar {
+    background-color: #000;
+    color: #fff;
+    padding: 25px 0;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.logo {
+    font-weight: bold;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    white-space: nowrap
+}
+
+.contact-info span {
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+main {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.product {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details h2 {
+    margin-top: 0;
+}
+
+.product-details table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.product-details table td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.price {
+    font-size: 24px;
+    color: #d9534f;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+aside {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+footer .social a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+}
+
+.logo-main {
+    text-decoration: none;
+    color: white;
+}
